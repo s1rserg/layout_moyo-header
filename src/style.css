@@ -1,10 +1,10 @@
 html {
-  --brand-color: #00acdc;
+  --blue: #00acdc;
 }
 
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -46,19 +46,19 @@ body {
 }
 
 .header__nav__list__item__link:hover {
-  color: var(--brand-color);
+  color: var(--blue);
 }
 
 .is-active {
   position: relative;
-  color: var(--brand-color);
+  color: var(--blue);
 }
 
 .is-active::after {
   content: '';
   width: 100%;
   height: 4px;
-  background-color: var(--brand-color);
+  background-color: var(--blue);
   border-radius: 8px;
 
   position: absolute;
